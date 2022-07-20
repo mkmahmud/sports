@@ -75,6 +75,7 @@ main{
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin-top: 50px;
 }
 .content-menu{
     width: 20%;
@@ -98,14 +99,6 @@ main{
     text-decoration: none;
     color: white;
     font-family: arial;
-}
-
-.content-menu ul li:first-child{
-    background-color: white;
-}
-
-.content-menu ul li:first-child a{
-    color: black;
 }
 
 .fixtures{
@@ -141,10 +134,72 @@ main{
 .singel-match p a{
     text-decoration: none;
     color: black;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .singel-match .time{
     font-size: 15px;
     padding: 10px 0px;
 }
+
+/* Singel Blogs */
+.blog{}
+.singel-blog{
+    margin: 10px;
+    border: 1px solid #f2005f;
+    padding: 5px;
+    border-radius: 5px;
+}
+.singel-blog img{
+    width: 100%;
+}
+.singel-blog button{
+    outline: none;
+    font-size: 18px;
+    padding: 5px 17px;
+    background: no-repeat;
+    border: 2px solid #f2005f;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.singel-blog h4{
+    font-size: 20px;
+    padding: 9px 0px;
+}
+.singel-blog p{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #f2005f;
+}
+.singel-blog p span{}
+.singel-blog p span i{}
+/* Singel Blogs */
 /* Content Section End */
+
+footer{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background: #f9015f;
+    padding: 74px 0px 30px;
+}
+footer h2{
+    color: white;
+    font-family: arial black;
+    font-size: 50px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+footer ul li{ }
+footer ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-family: ui-sans-serif;
+}
 
