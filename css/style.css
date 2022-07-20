@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Moonrocks&display=swap');
 
 *{
     margin: 0;
@@ -69,3 +69,82 @@ main{
     }
 }
 /* Hero Section End */
+
+/* Content Section Start */
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.content-menu{
+    width: 20%;
+    text-align: center;
+}
+.content-menu ul{
+    list-style: none;
+    background: #f2005f;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.content-menu ul li{
+    padding: 10px 12px;
+    background: #590578;
+    margin: 10px;
+    border-radius: 5px;
+}
+.content-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+}
+
+.content-menu ul li:first-child{
+    background-color: white;
+}
+
+.content-menu ul li:first-child a{
+    color: black;
+}
+
+.fixtures{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.singel-match{
+    text-align: center;
+    border: 3px solid #77777740;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.singel-match .flags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singel-match .flags img{
+    width: 100px;
+    height: 70px;
+    padding: 5px 15px;
+}
+.singel-match .flags h3{
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.singel-match p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.singel-match p a{
+    text-decoration: none;
+    color: black;
+}
+.singel-match .time{
+    font-size: 15px;
+    padding: 10px 0px;
+}
+/* Content Section End */
+
