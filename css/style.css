@@ -186,7 +186,8 @@ footer{
     width: 90%;
     margin: auto;
     background: #f9015f;
-    padding: 74px 0px 30px;
+    padding-top: 75px;
+    padding-bottom: 0px;
 }
 footer h2{
     color: white;
@@ -199,13 +200,31 @@ footer ul{
     justify-content: space-evenly;
     padding: 20px 0px;
 }
-footer ul li{ }
+
 footer ul li a{
     font-size: 20px;
     text-decoration: none;
     color: #f1f1f1;
     font-family: ui-sans-serif;
 }
+
+.social{background: black;padding: 20px;}
+.social p{
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.social span a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.social span a:hover{
+    color: #ff005e;
+}
+
 
 /* Tab view */
 
